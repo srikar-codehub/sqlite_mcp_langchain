@@ -25,3 +25,11 @@ model: This is your AI model (LLM).
 tools: This is the list of LangChain Tool objects that were just loaded from your MCP server via the ClientSession.
 
 The agent_executor integrates the AI model with the tools. The AI model's job is to receive the user's query, analyze it, and decide which tool (if any) to call from the tools list to fulfill the query.
+
+
+commands:
+uv init
+cd 
+uv venv
+activate
+python file.py/ uv run file.py
